@@ -8,7 +8,15 @@ def setup():
     output("This is the bot template.")
     sleep(1)
     output('It does nothing more than just responding with "Ok".')
-    
+
 def response(input):
     print(input)
     output("Ok")
+
+def respondRandom():
+    answers = [
+    "ok"
+    "roger"
+    "hallo"
+    ]
+    c.output()
