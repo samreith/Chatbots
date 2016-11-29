@@ -21,9 +21,9 @@ def output(s):
 
 
 def setup():
-    output("This is the bot template.")
+    output("An Author is...")
     sleep(1)
-    output('It does nothing more than just responding with "Ok".')
+    output("")
 
 
 def response(input):
